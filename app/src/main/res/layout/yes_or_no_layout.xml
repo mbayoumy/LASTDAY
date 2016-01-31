@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#85C2FF" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="51dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="325dp"
+            android:gravity="center" >
+
+            <CheckBox
+                android:id="@+id/yn_yes_button"
+                android:layout_width="450dp"
+                android:layout_height="320dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:background="@drawable/multiple_choice_button"
+                android:text="Yes"
+                android:textSize="35sp" />
+
+            <CheckBox
+                android:id="@+id/yn_no_button"
+                 android:layout_width="450dp"
+                android:layout_height="320dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="130dp"
+               
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:background="@drawable/multiple_choice_button"
+                android:text="No"
+                android:textSize="35sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/yn_question_number_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="27dp"
+        android:text="Question 7 of 15"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/yn_question_text_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/yn_question_number_TV"
+        android:layout_below="@+id/yn_question_number_TV"
+        android:gravity="center"
+        android:text="Where are you currently experiencing pain?"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/yes_no_next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/yn_question_number_TV"
+        android:text="Next" />
+
+    <TextView
+        android:id="@+id/yn_guide_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yn_question_text_TV"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:gravity="center"
+        android:text="Select either yes or no"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="28sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/yn_change_choice_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:text="change choice" />
+
+</RelativeLayout>

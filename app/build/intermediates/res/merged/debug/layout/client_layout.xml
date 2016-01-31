@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/SendData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="113dp"
+        android:layout_marginTop="124dp"
+        android:text="Send Questionnaire Answers" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/closeConnection"
+        android:layout_below="@+id/closeConnection"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/SendData"
+        android:layout_marginRight="382dp"
+        android:editable="true"
+        android:text="Not Connected"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/closeConnection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/SendData"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="42dp"
+        android:text="Close Connection" />
+
+    <EditText
+        android:id="@+id/ip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/status"
+        android:layout_below="@+id/SendData"
+        android:layout_marginTop="51dp"
+        android:ems="10"
+        android:text="Enter code here" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/openConnection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ip"
+        android:layout_alignBottom="@+id/ip"
+        android:layout_alignLeft="@+id/closeConnection"
+        android:text="Open Connection" />
+
+    <Button
+        android:id="@+id/startWholeThing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_marginTop="25dp"
+        android:text="Start" />
+
+</RelativeLayout>

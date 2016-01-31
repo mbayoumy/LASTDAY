@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#85C2FF" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="51dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/enter_text_question_number_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="27dp"
+        android:text="Question 7 of 15"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/enter_text_question_text_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/enter_text_question_number_TV"
+        android:layout_below="@+id/enter_text_question_number_TV"
+        android:gravity="center"
+        android:text="Where are you currently experiencing pain?"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/enter_text_q_brief_TV"
+        android:gravity="center" >
+
+        
+        <EditText
+            android:id="@+id/enter_text_input_et"
+            android:layout_width="1024dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            
+            android:ems="10"
+            android:background="@drawable/round_corners_view"
+            android:gravity="top"
+       		android:inputType="textMultiLine" 
+        	android:textSize="28sp" >
+
+
+        </EditText>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/enter_text_next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/enter_text_question_text_TV"
+        android:layout_alignBottom="@+id/enter_text_question_text_TV"
+        android:layout_alignParentRight="true"
+        android:text="Next" />
+
+    <TextView
+        android:id="@+id/enter_text_q_brief_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enter_text_next_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+        android:text="Click the box below to start entering text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="28sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>

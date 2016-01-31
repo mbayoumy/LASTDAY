@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#85C2FF" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/ss_next_patient_button"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="185dp"
+            android:background="@drawable/welcome_screen_buttons"
+            android:text="Next patient"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/ss_submit_button"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_alignBaseline="@+id/ss_next_patient_button"
+            android:layout_alignBottom="@+id/ss_next_patient_button"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="185dp"
+            android:background="@drawable/welcome_screen_buttons"
+            android:text="Submit data"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

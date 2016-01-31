@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\build\\intermediates\\res\\merged\\debug\\menu\\questionnaire_menu_items.xml",
+        "source": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\src\\main\\res\\menu\\questionnaire_menu_items.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\build\\intermediates\\res\\merged\\debug\\menu\\tour_guide.xml",
+        "source": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\src\\main\\res\\menu\\tour_guide.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\src\\main\\res\\menu\\main.xml"
+    }
+]

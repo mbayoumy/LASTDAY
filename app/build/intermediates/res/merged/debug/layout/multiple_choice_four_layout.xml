@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#85C2FF" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="51dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/mc_four_question_number_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="27dp"
+        android:text="Question 7 of 15"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/mc_four_question_text_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mc_four_question_number_TV"
+        android:layout_below="@+id/mc_four_question_number_TV"
+        android:gravity="center"
+        android:text="Where are you currently experiencing pain?"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/mc_four_q_brief_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mc_four_question_text_TV"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:gravity="center"
+        android:text="Select 1 or more. If you are Diaby, please select all."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="28sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/mc_four_q_brief_TV"
+        android:gravity="center"
+        android:layout_marginTop="60dp" >
+
+        <CheckBox
+            android:id="@+id/mc_four_choice1_button"
+            android:layout_width="220dp"
+            android:layout_height="170dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="200dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/multiple_choice_button"
+            android:text="Head" />
+
+        <CheckBox
+            android:id="@+id/mc_four_choice2_button"
+            android:layout_width="220dp"
+            android:layout_height="170dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/multiple_choice_button"
+            android:text="Neck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout2"
+        android:gravity="center" >
+
+        <CheckBox
+            android:id="@+id/mc_four_choice3_button"
+            android:layout_width="220dp"
+            android:layout_height="170dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="200dp"
+            android:background="@drawable/multiple_choice_button"
+            android:text="Genitals" />
+
+        <CheckBox
+            android:id="@+id/mc_four_choice4_button"
+            android:layout_width="220dp"
+            android:layout_height="170dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/multiple_choice_button"
+            android:text="Legs" />
+    </LinearLayout>
+
+   <Button
+       android:id="@+id/mc_four_next_button"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBaseline="@+id/mc_four_question_text_TV"
+       android:layout_alignBottom="@+id/mc_four_question_text_TV"
+       android:layout_alignParentRight="true"
+       android:text="Next" />
+
+   <Button
+       android:id="@+id/mc_four_sc_change_choice"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/mc_four_q_brief_TV"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="27dp"
+       android:background="#CCFFCC"
+       android:text="Change choice" />
+
+</RelativeLayout>

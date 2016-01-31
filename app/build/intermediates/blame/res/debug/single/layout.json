@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\build\\intermediates\\res\\merged\\debug\\layout\\multiple_choice_three_layout.xml",
+        "source": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\src\\main\\res\\layout\\multiple_choice_three_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\build\\intermediates\\res\\merged\\debug\\layout\\multiple_choice_five_layout.xml",
+        "source": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\src\\main\\res\\layout\\multiple_choice_five_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\build\\intermediates\\res\\merged\\debug\\layout\\question_template_layout.xml",
+        "source": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\src\\main\\res\\layout\\question_template_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\build\\intermediates\\res\\merged\\debug\\layout\\submit_questionnaire_layout.xml",
+        "source": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\src\\main\\res\\layout\\submit_questionnaire_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\build\\intermediates\\res\\merged\\debug\\layout\\multiple_choice_four_layout.xml",
+        "source": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\src\\main\\res\\layout\\multiple_choice_four_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\build\\intermediates\\res\\merged\\debug\\layout\\yes_or_no_layout.xml",
+        "source": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\src\\main\\res\\layout\\yes_or_no_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\build\\intermediates\\res\\merged\\debug\\layout\\client_layout.xml",
+        "source": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\src\\main\\res\\layout\\client_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\build\\intermediates\\res\\merged\\debug\\layout\\the_client_layout.xml",
+        "source": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\src\\main\\res\\layout\\the_client_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\build\\intermediates\\res\\merged\\debug\\layout\\enter_date_layout.xml",
+        "source": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\src\\main\\res\\layout\\enter_date_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\build\\intermediates\\res\\merged\\debug\\layout\\multiple_choice.xml",
+        "source": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\src\\main\\res\\layout\\multiple_choice.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\build\\intermediates\\res\\merged\\debug\\layout\\multiple_choice_two_layout.xml",
+        "source": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\src\\main\\res\\layout\\multiple_choice_two_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\build\\intermediates\\res\\merged\\debug\\layout\\start_again_or_submit_layout.xml",
+        "source": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\src\\main\\res\\layout\\start_again_or_submit_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tour_guide.xml",
+        "source": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\src\\main\\res\\layout\\activity_tour_guide.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\build\\intermediates\\res\\merged\\debug\\layout\\min_max_layout.xml",
+        "source": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\src\\main\\res\\layout\\min_max_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\build\\intermediates\\res\\merged\\debug\\layout\\enter_text_layout.xml",
+        "source": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\src\\main\\res\\layout\\enter_text_layout.xml"
+    }
+]

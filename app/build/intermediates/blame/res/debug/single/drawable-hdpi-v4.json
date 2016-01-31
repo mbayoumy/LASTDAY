@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\welcome_screen_buttons.xml",
+        "source": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\src\\main\\res\\drawable-hdpi\\welcome_screen_buttons.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\multiple_choice_button.xml",
+        "source": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\src\\main\\res\\drawable-hdpi\\multiple_choice_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\round_corners_view.xml",
+        "source": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\src\\main\\res\\drawable-hdpi\\round_corners_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\round_corners_edittext.xml",
+        "source": "C:\\Users\\Mohamed\\Desktop\\fc2\\LASTDAY\\app\\src\\main\\res\\drawable-hdpi\\round_corners_edittext.xml"
+    }
+]

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Mohamed\Desktop\fc2\LASTDAY\json-simple-1.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5d6f9b6a9ddca2a28c0216cc44efb2e20d9c23b5">
+        <dex dex="C:\Users\Mohamed\Desktop\fc2\LASTDAY\app\build\intermediates\pre-dexed\debug\json-simple-1.1.1_4b0ec729fe8be22ee865fe59f87a920d423f92eb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mohamed\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="C:\Users\Mohamed\Desktop\fc2\LASTDAY\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0_97fc22d14cfb344e595f193514bdc3d6fa532ec3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mohamed\Desktop\fc2\LASTDAY\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="C:\Users\Mohamed\Desktop\fc2\LASTDAY\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0_9b2f78de53944c1d7cdbb3f187ff2d64b510e2f9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mohamed\Desktop\fc2\LASTDAY\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="C:\Users\Mohamed\Desktop\fc2\LASTDAY\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-20.0.0_2cd214107f77e3e7815ceec32a1f6532025c40e1.jar" />
+    </item>
+
+</items>
